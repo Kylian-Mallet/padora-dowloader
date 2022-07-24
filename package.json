@@ -1,0 +1,29 @@
+{
+  "name": "pandora-dowloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kylian-Mallet/pandora-dowloader.git"
+  },
+  "author": "Kylian Mallet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kylian-Mallet/pandora-dowloader/issues"
+  },
+  "homepage": "https://github.com/Kylian-Mallet/pandora-dowloader#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "command-exists": "^1.2.9",
+    "puppeteer": "^15.5.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
